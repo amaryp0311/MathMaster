@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #6DB1F1;
+    font-family: Cursive;
+    text-align: center;
+}
+.Main {
+    height: 1000px;
+    width: 600px;
+    padding: 1px;
+    position: relative;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.colororang{
+    background-color: #EA5959;
+    border: 1px solid #EA5959;
+    width: 100%;
+    height: 150px;     
+}
+.absolute {
+    position: absolute;
+    bottom: 850px;
+    left: 1px;
+    width: 20px;
+}
+.title{
+    position: absolute;
+    bottom: 890px;
+    right: 16px;
+}
+.titlescore{
+    /* position: absolute; */
+    bottom: 800px;
+    right: 16px;
+    font-size: 25px
+}
+.coloroblack{
+    background-color: black;
+    border: 1px solid black;
+    width: 100%;
+    height: 10px;
+    
+}
+.center{
+    position: absolute;
+    top: 36%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.allbutton{
+    padding-left: 80px;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-gap: 10px; /* ระยะห่างระหว่างปุ่ม */
+    padding-left: 100px;
+    grid-gap: 50px;
+}
+.button {
+    width: 150px; /* ปรับขนาดของปุ่มให้เต็มความกว้างของ column */
+    height: 120px; /* กำหนดความสูงของปุ่ม */
+    background-color: #693B06; /* สีพื้นหลังของปุ่ม */
+    color: black; /* สีข้อความ */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    line-height: 50px; /* จัดให้ข้อความอยู่ตรงกลางตามความสูงของปุ่ม */
+    border: black; /* ลบเส้นขอบ */
+    border: 4px solid black; /* กำหนดเส้นรอบของปุ่ม */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็น pointer เมื่อชี้ที่ปุ่ม */
+    border-radius: 8px;
+    font-family: Cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.image-button {
+    display: inline-block;
+    background: transparent; /* Remove default button background */
+    border: none; /* Remove default button border */
+    padding: 0; /* Remove any padding */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+.number {
+    position: absolute;
+    top: 5px; /* Adjust vertical position as needed */
+    left: 5px; /* Adjust horizontal position as needed */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */}
+
+    .Time{
+        position: absolute;
+        top: 140px;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }

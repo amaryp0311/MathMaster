@@ -1,0 +1,25 @@
+body {
+    text-shadow: 2px 2px;
+    background-color: #6DB1F1;
+    text-align: center;
+    background-image: url(/jpg/clound.png); /* เปลี่ยนเป็น URL ของรูปเมฆ */
+    background-size: cover; /* ทำให้รูปเต็มพื้นที่ของหน้าจอ */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container img {
+    width: 500px;
+    height: 300px;
+}
+.image-button {
+    display: inline-block;
+    background: transparent; /* Remove default button background */
+    border: none; /* Remove default button border */
+    padding: 0; /* Remove any padding */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }

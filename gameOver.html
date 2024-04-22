@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="GameOver.css">
+</head>
+
+<body>
+    <div>
+        <span>
+            <H1>GAME OVER</H1>
+        </span>
+        <span>
+            <h4>Your score : <label for="" id="score"></label></h4>
+        </span>
+        <span>
+            <button class="bt"><a href="index.html">Try Again</a></button>
+        </span>
+    </div>
+
+    
+    <!-- <label for="" id="text"></label> -->
+    <script>
+        let sc = document.getElementById("score") 
+        // let t = document.getElementById("text");
+        // t.innerHTML = localStorage.getItem("text")
+        sc.innerHTML = localStorage.getItem("score")
+    </script>
+</body>
+
+
+</html>

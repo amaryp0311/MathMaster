@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    font-family: Cursive;
+    text-align: center;
+    color: red;
+}
+.bt{
+    color: #000000;
+    background-color: yellow;
+    font-family: Cursive;
+    text-align: center;
+    cursor: pointer;
+}
