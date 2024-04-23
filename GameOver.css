@@ -5,14 +5,18 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #000000;
-    font-family: Cursive;
+    font-family:'Chewy';
     text-align: center;
     color: red;
 }
+@font-face {
+    font-family: 'Chewy';
+    src: url('Chewy-Regular.ttf') format('truetype');
+  }
 .bt{
     color: #000000;
     background-color: yellow;
-    font-family: Cursive;
+    font-family:'Chewy';
     text-align: center;
     cursor: pointer;
 }
