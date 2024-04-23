@@ -44,7 +44,7 @@ function genQ() {
                 ans = a / b;
                 break;
         }
-
+        localStorage.setItem("score", numQuestions);
         sc.innerHTML = localStorage.getItem("score");
         q.innerHTML = numQuestions + 1;
         r.innerHTML = a + " " + ope + " " + b;
@@ -67,7 +67,7 @@ function genQ() {
         correctAnswer = false;
         createButtons(arr, ans);
         numQuestions++;
-        localStorage.setItem("score", numQuestions);
+        // localStorage.setItem("score", numQuestions);
     }
 }
 
@@ -144,12 +144,21 @@ function createButtons(array, ans) {
     });
 }
 
+// function skipQuestion() {
+//     if (number > 0) {
+//         clearInterval(timerInterval);
+//         genQ();
+//         number--;
+//         document.getElementById('skipButton').textContent = number;
+//     }
+// }
+
 function skipQuestion() {
     if (number > 0) {
         clearInterval(timerInterval);
         genQ();
         number--;
-        document.getElementById('skipButton').textContent = number;
+        document.querySelector('#skipButton .number').textContent = number;
     }
 }
 

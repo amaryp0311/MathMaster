@@ -87,19 +87,21 @@ body {
     border: none; /* Remove default button border */
     padding: 0; /* Remove any padding */
     cursor: pointer; /* Show pointer cursor on hover */
-  }
+}
+
 .number {
     position: absolute;
-    top: 5px; /* Adjust vertical position as needed */
-    left: 5px; /* Adjust horizontal position as needed */
-    color: white; /* Text color */
+    top: 80px; /* Adjust vertical position as needed */
+    left: 120px; /* Adjust horizontal position as needed */
+    color: black; /* Text color */
     font-size: 16px; /* Font size */
-    font-weight: bold; /* Font weight */}
+    font-weight: bold; /* Font weight */
+}
 
-    .Time{
-        position: absolute;
-        top: 140px;
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-    }
+.Time{
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
